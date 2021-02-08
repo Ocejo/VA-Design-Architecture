@@ -44,7 +44,7 @@ a {
 }
 .bg-overlay {
 	padding: 280px 0 220px;
-	background-color: RGBA(15, 5, 20, 0.84);
+	background-color: RGBA(52, 73, 94, 0.19);
 }
 .banner-text h2 {
 	font-size: 50px;
@@ -72,7 +72,7 @@ a {
 }
 .mynav {
 	transition: all 0.8s ease-in;
-	background: rgb(68, 51, 68) none repeat scroll 0% 0%;
+	background: rgb(179, 182, 183) none repeat scroll 0% 0%;
 }
 .mynav li a {
 	font-family: 'Work Sans', sans-serif;
@@ -80,12 +80,12 @@ a {
 	font-weight: 400;
 }
 .nav > li > a:focus, .nav > li > a {
-	color: #E1DBDB;
+	color: #fff;
 }
 .nav > li > a:focus, .nav > li > a:hover, .nav > li > a:focus, .nav > li.active > a {
-	background-color: #665566;
-	color: #fff;
-	border-bottom: 2px solid #EB233C;
+	background-color: #909497;
+	color: #ECF0F1;
+	border-bottom: 2px solid #243255;
 }
 .navbar-nav > li > a {
 	padding-top: 15px;
@@ -129,7 +129,7 @@ a {
 
 .portfolio {
 	padding: 50px 0;
-	background-color: rgba(235, 213, 235, 0.26);
+	background-color: rgba(248, 249, 249, 0.26);
 	float: left;
 	width: 100%;
 }
@@ -145,23 +145,24 @@ a {
 .portfolio h3 {
 	margin-top: 0px;
 	margin-bottom: 50px;
-	border-bottom: 2px solid #EB233C;
+	border-bottom: 2px solid #243255;
 	display: inline-block;
 	line-height: 35px;
 }
 .view-more {
 	padding: 12px 35px;
-	color: #ffffff;
+	color: black;
 	text-decoration: none;
 	display: inline-block;
 	border-radius: 25px 25px 25px 25px;
+	border: 1px black solid;
 	font-size: 15px;
-	background-color: #EB233C;
+	background-color: #fff;
 	margin-top: 20px;
 }
 .view-more:hover {
 	text-decoration: none;
-	color: #ffffff;
+	color: #626567;
 }
 
 /*-----Portfolio or Work Ends-------*/
@@ -246,12 +247,12 @@ a {
 }
 .subscribe-button {
 	padding: 12px 35px;
-	color: #ffffff;
+	color: black;
 	text-decoration: none;
 	display: inline-block;
 	border-radius: 25px 25px 25px 25px;
 	font-size: 15px;
-	background-color: #EB233C;
+	background-color: #fff;
 	margin-top: 30px;
 }
 .subscribe-button:hover {
@@ -581,12 +582,12 @@ p {
 }
 
 .tm-img-container-1 {
-  background-image: url(../img/green-tree-red-cup.jpg);
+  background-image: url(../Ethereal/images/green-tree-red-cup.jpg);
   background-position: top center;
 }
 
 .tm-img-container-2 {
-  background-image: url(../img/girl-01.jpg);
+  background-image: url(../Ethereal/images/girl-01.jpg);
   background-position: top center;
   margin-left: 8px;
 }
@@ -597,7 +598,7 @@ p {
 }
 
 .tm-img { width: 49%; }
-.tm-bg-primary { background-color: #CC9999; }
+.tm-bg-primary { background-color: #243255; }
 .tm-bg-accent { background-color: #CEC0AE; }
 
 .tm-section-3-left {
