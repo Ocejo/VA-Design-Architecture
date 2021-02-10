@@ -9,14 +9,14 @@ body {
 	font-family: 'Work Sans', sans-serif;
 }
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Oleo Script Swash Caps', cursive;
+	font-family: 'Work Sans', sans-serif;
 }
 a {
 	outline: none !important;
 }
 /*-----Header & Banner Starts-------*/
 .navbar-brand {
-	font-family: 'Oleo Script Swash Caps', cursive;
+	font-family: 'Work Sans', sans-serif;;
 	color: #ffffff;
 	font-size: 26px;
 }
@@ -162,7 +162,8 @@ a {
 }
 .view-more:hover {
 	text-decoration: none;
-	color: #626567;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.16);
+	color: black;
 }
 
 /*-----Portfolio or Work Ends-------*/
@@ -232,7 +233,7 @@ a {
 }
 .call-overlay {
 	padding: 50px 0px;
-	background-color: RGBA(15, 5, 20, 0.84);
+	background-color: RGBA(52, 73, 94, 0.19);
 }
 .subscribe-text {
 	text-align: left;
@@ -270,7 +271,7 @@ a {
 .about h3 {
 	margin-top: 0px;
 	margin-bottom: 50px;
-	border-bottom: 2px solid #EB233C;
+	border-bottom: 2px solid #243255;
 	display: inline-block;
 	line-height: 35px;
 }
@@ -283,7 +284,7 @@ a {
 	font-family: 'Work Sans', sans-serif;
 }
 .timer {
-	color: #EB233C;
+	color: #AEB6BF;
 	font-size: 50px;
 	font-weight: 200;
 }
@@ -295,7 +296,7 @@ a {
 
 /*-----Contact Starts-------*/
 .contact {
-	background-color: rgba(204, 204, 204, 0.15);
+	background-color: rgba(248, 249, 249, 0.26);
 	padding: 50px 0px;
 	float: left;
 	width: 100%;
@@ -303,7 +304,7 @@ a {
 .contact h3 {
 	margin-top: 0px;
 	margin-bottom: 50px;
-	border-bottom: 2px solid #EB233C;
+	border-bottom: 2px solid #243255;
 	display: inline-block;
 	line-height: 35px;
 }
@@ -324,7 +325,7 @@ a {
 	border-radius: 0px;
 	box-shadow: none;
 	transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
-	border-bottom: 2px solid #EB233C;
+	border-bottom: 2px solid #B3B6B7;
 	resize: none;
 	margin-top: 25px;
 }
@@ -345,15 +346,20 @@ color: #242424 !important;
 color: #242424 !important;
 }
 .contact-button {
-	border: none;
+	border: 1px black solid;
 	padding: 12px 35px;
-	color: #ffffff;
+	color: black;
 	text-decoration: none;
 	display: inline-block;
 	border-radius: 25px 25px 25px 25px;
 	font-size: 15px;
-	background-color: #EB233C;
+	background-color: white;
 	margin-top: 30px;
+}
+.contact-button:hover {
+	text-decoration: none;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.16);
+	color: black;
 }
 .address {
 	color: #242424;
@@ -573,6 +579,9 @@ p {
   margin-left: -40px;
   -webkit-clip-path: polygon(14% 0%, 100% 0%, 86% 100%, 0% 100%);
   clip-path: polygon(14% 0%, 100% 0%, 86% 100%, 0% 100%);
+  background-image: url(../Ethereal/images/casaminima.jpg);
+  border: none;
+  background-position: top center;
 }
 
 .tm-img-container {
@@ -680,14 +689,14 @@ p {
 
 .form-control {
   border: none;
-  border-bottom: 1px solid #CC9999;
+  border-bottom: 1px solid #616A6B;
   border-radius: 0;
 }
 
-.form-control:focus {
+/*.form-control:focus {
   border-bottom: 2px solid #ad0c10;
   box-shadow: none;
-}
+}*/
 
 .btn-primary {
   background-color: #CC9999;
@@ -893,11 +902,11 @@ figure.effect-lexi figcaption::before, figure.effect-lexi p {
 
   .tm-section-2-left { margin-left: 0; }
 
-  .tm-section-2-right {
+  /*.tm-section-2-right {
     width: 100%;
     margin-top: 40px;
     margin-left: 0;
-  }
+  }*/
 
   .tm-section-2-left {
     width: 100%;
