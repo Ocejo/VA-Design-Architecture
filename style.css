@@ -183,12 +183,11 @@ a {
 	line-height: 35px;
 }
 .test {
-	background-color: rgba(235, 213, 235, 0.26);
+	background-color: rgba(214, 219, 223,0.26);
 	padding: 20px 20px 10px;
 	border-radius: 10px;
 }
-.item {
-}
+
 .test p {
 	font-size: 15px;
 	font-weight: 300;
@@ -212,7 +211,7 @@ a {
 	padding-left: 10px;
 }
 .owl-theme .owl-controls .owl-page span {
-	background-color: #EB233C !important;
+	background-color: #243255 !important;
 }
 /*-----Testimonials Ends-------*/
 
@@ -241,7 +240,7 @@ a {
 .subscribe-text h3 {
 	margin-top: 0px;
 	margin-bottom: 20px;
-	border-bottom: 2px solid #EB233C;
+	border-bottom: 2px solid #243255;
 	display: inline-block;
 	line-height: 35px;
 	text-align: left;
@@ -902,11 +901,12 @@ figure.effect-lexi figcaption::before, figure.effect-lexi p {
 
   .tm-section-2-left { margin-left: 0; }
 
-  /*.tm-section-2-right {
+  .tm-section-2-right {
     width: 100%;
+    height: 600px;
     margin-top: 40px;
     margin-left: 0;
-  }*/
+  }
 
   .tm-section-2-left {
     width: 100%;

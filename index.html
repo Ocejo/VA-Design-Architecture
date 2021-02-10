@@ -144,13 +144,13 @@
             <div class="col-md-6">
               <div class="col-md-6 col-sm-6 col-xs-6 block">
                 <div class="counter-item text-center">
-                  <h5>Our Clients</h5>
+                  <h5>Nuestros Clientes</h5>
                   <div class="timer" data-from="0" data-to="55" data-speed="5000" data-refresh-interval="50"></div>
                 </div>
               </div>
               <div class="col-md-6 col-sm-6 col-xs-6">
                 <div class="counter-item text-center">
-                  <h5>Projects completed</h5>
+                  <h5>Projectos Completados</h5>
                   <div class="timer" data-from="0" data-to="88" data-speed="5000" data-refresh-interval="50"></div>
                 </div>
               </div>
@@ -173,48 +173,7 @@
             <h3>Servicios</h3>
           </div>
         </div>
-        <div class="col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10">
-          <div id="owl-demo" class="owl-carousel owl-theme test">
-            <div class="item">
-              <p><sup><i class="fa fa-quote-left"></i></sup>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                dui ante, ornare eget est in, ultricies rutrum elit.<sup><i class="fa fa-quote-right"></i></sup></p>
-              <div class="test-img"> <img src="images/team-img-01.jpg" />
-                <p><strong>Yogesh Singh</strong></p>
-              </div>
-            </div>
-            <div class="item">
-              <p><sup><i class="fa fa-quote-left"></i></sup>Proin tincidunt, orci vel volutpat blandit, purus turpis
-                faucibus massa, sit amet posuere nunc diam in ex.<sup><i class="fa fa-quote-right"></i></sup></p>
-              <div class="test-img"> <img src="images/team-img-02.jpg" />
-                <p><strong>Brad Will</strong></p>
-              </div>
-            </div>
-            <div class="item">
-              <p><sup><i class="fa fa-quote-left"></i></sup>Morbi velit mauris, hendrerit in convallis vel, laoreet et
-                orci. Integer semper, est vel congue suscipit, nisl nibh convallis lorem, sit amet faucibus purus lacus
-                eu nulla. Sed nec blandit ante, sed semper tellus.<sup><i class="fa fa-quote-right"></i></sup></p>
-              <div class="test-img"> <img src="images/team-img-03.jpg" />
-                <p><strong>John Deo</strong></p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="call-to-action">
-    <div class="call-overlay">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 col-sm-10">
-            <div class="subscribe-text">
-              <h3>Subscribe For Updates</h3>
-              <p>Join our 1000+ subscribers and get access to the latest tools, freebies, product announcements and much
-                more!</p>
-            </div>
-          </div>
-          <div class="col-md-4 text-center"></div>
-        </div>
+        <!-- ARE SERVICIOS -->
       </div>
     </div>
   </div>
@@ -240,6 +199,54 @@
             </div>
           </div>
         </section>
+      </div>
+    </div>
+  </div>
+  <div class="testimonials">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10">
+          <div id="owl-demo" class="owl-carousel owl-theme test">
+            <div class="item">
+              <p><sup><i class="fa fa-quote-left"></i></sup>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                dui ante, ornare eget est in, ultricies rutrum elit.<sup><i class="fa fa-quote-right"></i></sup></p>
+              <div class="test-img"> <img src="images/team-img-03.jpg" />
+                <p><strong>José Carlos</strong></p>
+              </div>
+            </div>
+            <div class="item">
+              <p><sup><i class="fa fa-quote-left"></i></sup>Proin tincidunt, orci vel volutpat blandit, purus turpis
+                faucibus massa, sit amet posuere nunc diam in ex.<sup><i class="fa fa-quote-right"></i></sup></p>
+              <div class="test-img"> <img src="images/team-img-02.jpg" />
+                <p><strong>Wilma Leon</strong></p>
+              </div>
+            </div>
+            <div class="item">
+              <p><sup><i class="fa fa-quote-left"></i></sup>Morbi velit mauris, hendrerit in convallis vel, laoreet et
+                orci. Integer semper, est vel congue suscipit, nisl nibh convallis lorem, sit amet faucibus purus lacus
+                eu nulla. Sed nec blandit ante, sed semper tellus.<sup><i class="fa fa-quote-right"></i></sup></p>
+              <div class="test-img"> <img src="images/team-img-03.jpg" />
+                <p><strong>Erick Emmanuel</strong></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="call-to-action">
+    <div class="call-overlay">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-10">
+            <div class="subscribe-text">
+              <h3>Subscribe For Updates</h3>
+              <p>Join our 1000+ subscribers and get access to the latest tools, freebies, product announcements and much
+                more!</p>
+            </div>
+          </div>
+          <div class="col-md-4 text-center"></div>
+        </div>
       </div>
     </div>
   </div>
@@ -335,10 +342,13 @@
         }
       });
 
-
+      var active = 0;
       // start all the timers
-      $('#testimonials').waypoint(function () {
-        $('.timer').each(count);
+      $('#work').waypoint(function () {
+        if (active === 0) {
+          active = 1;
+          $('.timer').each(count);
+        }
       });
 
       function count(options) {
