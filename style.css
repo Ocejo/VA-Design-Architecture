@@ -285,7 +285,6 @@ a {
 	padding: 50px 0px;
 	width: 100%;
 	float: left;
-  margin-top: -100px;
 }
 .about h3 {
 	margin-top: 0px;
@@ -435,7 +434,9 @@ ul.social-buttons li a {
 	width: 40px;
 }
 ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li a:active {
-	background-color: #EB233C;
+	background-color: #fff;
+  color: black;
+  box-shadow: rgb(153, 153, 153) 2px 2px 3px;
 }
 .btn:focus, .btn:active, .btn.active, .btn:active:focus {
 	outline: 0 none;
