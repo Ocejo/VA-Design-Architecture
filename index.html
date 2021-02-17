@@ -49,7 +49,8 @@
           <div class="col-md-12">
             <div class="banner-text">
               <h2>“Cada proyecto es un sueño, y cada sueño materializado una oportunidad de crecer...”</h2>
-              <p>En VA Diseño + Arquitectura, estamos comprometidos a DISEÑAR/ PROYECTAR/ CONSTRUIR/ REMODELAR/ tu proyecto. Cuidando tu patrimonio.</p>
+              <p>En VA Diseño + Arquitectura, estamos comprometidos a <strong class="written-text"
+                  id="requiredForMultiple"></strong> tu proyecto. Cuidando tu patrimonio.</p>
             </div>
           </div>
         </div>
@@ -65,7 +66,8 @@
             </div>
             <div class="feature-text media-body">
               <h4>Elemento creativo</h4>
-              <p class="feature-detail">Cada proyecto es visualizado de manera particular, independiente y proyectado de manera personalizada.</p>
+              <p class="feature-detail">Cada proyecto es visualizado de manera particular, independiente y proyectado de
+                manera personalizada.</p>
             </div>
           </div>
         </div>
@@ -78,7 +80,8 @@
               </svg></div>
             <div class="feature-text media-body">
               <h4>Elemento constructivo</h4>
-              <p class="feature-detail">Contamos con el apoyo de personal capacitado en arquitectura, paisajismo, ingeniería.</p>
+              <p class="feature-detail">Contamos con el apoyo de personal capacitado en arquitectura, paisajismo,
+                ingeniería.</p>
             </div>
           </div>
         </div>
@@ -100,7 +103,8 @@
               </svg></div>
             <div class="feature-text media-body">
               <h4>Imagen y equipamiento</h4>
-              <p class="feature-detail">Abarcamos los diferentes giros en equipamiento urbano, realizando proyectos de vivienda, oficinas, comercios, escuelas etc.</p>
+              <p class="feature-detail">Abarcamos los diferentes giros en equipamiento urbano, realizando proyectos de
+                vivienda, oficinas, comercios, escuelas etc.</p>
             </div>
           </div>
         </div>
@@ -117,9 +121,15 @@
           <div class="row">
             <div class="col-md-6">
               <div class="about-text text-left">
-                <p>En el momento que imaginamos un proyecto de arquitectura, jamás sospechamos lo difícil que esto puede ser. Desde el momento en visualizar cada espacio, cada proporción, hasta llegar a materializarlo.</p>
-                <p>Nosotros queremos brindarte el apoyo y asesoría, para poder aterrizar cada idea y tomados de la mano, guiarte para poder ejecutar tu sueño hasta llegar a materializarlo. Esto basado en nuestra experiencia profesional en el campo del diseño arquitectónico y la construcción, los cuales te aseguran un producto de alta calidad.</p>
-                <p>Tenemos la meta de brindar a cada uno de nuestros clientes, la confianza para poder ejecutar un proyecto único, competitivo y personalizado a los gustos y necesidades de cada usuario.</p>
+                <p>En el momento que imaginamos un proyecto de arquitectura, jamás sospechamos lo difícil que esto
+                  puede ser. Desde el momento en visualizar cada espacio, cada proporción, hasta llegar a
+                  materializarlo.</p>
+                <p>Nosotros queremos brindarte el apoyo y asesoría, para poder aterrizar cada idea y tomados de la
+                  mano, guiarte para poder ejecutar tu sueño hasta llegar a materializarlo. Esto basado en nuestra
+                  experiencia profesional en el campo del diseño arquitectónico y la construcción, los cuales te
+                  aseguran un producto de alta calidad.</p>
+                <p>Tenemos la meta de brindar a cada uno de nuestros clientes, la confianza para poder ejecutar un
+                  proyecto único, competitivo y personalizado a los gustos y necesidades de cada usuario.</p>
               </div>
             </div>
             <div class="col-md-6">
@@ -134,7 +144,7 @@
                   <div class="timer" data-from="0" data-to="55" data-speed="5000" data-refresh-interval="50"></div>
                 </div>
               </div>
-              <div class="col-md-6 col-sm-6 col-xs-6" style="padding-top: 26px;" >
+              <div class="col-md-6 col-sm-6 col-xs-6" style="padding-top: 26px;">
                 <div class="counter-item text-center">
                   <h5>Proyectos Completados</h5>
                   <div class="timer" data-from="0" data-to="88" data-speed="5000" data-refresh-interval="50"></div>
@@ -288,7 +298,8 @@
             <h3>Contactanos</h3>
           </div>
         </div>
-        <div class="col-md-7 col-sm-offset-0 col-sm-6 col-xs-offset-1 col-xs-10" style="border-radius: 20px; background-color: rgba(214, 219, 223,0.26);">
+        <div class="col-md-7 col-sm-offset-0 col-sm-6 col-xs-offset-1 col-xs-10"
+          style="border-radius: 20px; background-color: rgba(214, 219, 223,0.26);">
           <div class="contact-form">
             <form role="form">
               <div class="col-md-6">
@@ -338,6 +349,7 @@
     </div>
   </footer>
   <script src="js/jquery.min.js"></script>
+  <script src="js/writting-machine.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script type="text/javascript" src="js/owl.carousel.min.js"></script>
   <script type="text/javascript" src="js/jquery.countTo.js"></script>
@@ -446,6 +458,24 @@
         });
       });
     })
+
+    // Get the element
+    const myHtmlElement = document.querySelector('.written-text');
+
+    // Set the custom texts
+    const myTexts = ['DISEÑAR', 'PROYECTAR', 'CONSTRUIR', 'REMODELAR'];
+
+    // Instanciate and set the wanted settings
+    let myWritterMachine = new WritterMachine(myHtmlElement, {
+      texts: myTexts,         // Your array of texts
+      speed: 150,             // Set the writting speed
+      prefix: '',             // Add a non animated custom prefix
+      sufix: '',              // Add a non animated custom suffix
+      lowerLimit: 0,          // Limits the text counting from start
+      upperLimit: 0,          // Limits the text counting from end
+      enableStyles: true,     // Attach the default styles
+      customStyles: ''        // You can set custom styles directly using a string;
+    });
   </script>
 </body>
 
