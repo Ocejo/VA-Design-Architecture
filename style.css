@@ -826,18 +826,18 @@ p {
 }
 
 .tm-img-container-1 {
-    background-image: url(../Ethereal/images/green-tree-red-cup.jpg);
+    background-image: url(./images/green-tree-red-cup.jpg);
     background-position: top center;
 }
 
 .tm-img-container-2 {
-    background-image: url(../Ethereal/images/girl-01.jpg);
+    background-image: url(./images/girl-01.jpg);
     background-position: top center;
     margin-left: 8px;
 }
 
 .tm-img-container-3 {
-    background-image: url(../Ethereal/images/backpack-guy.jpg);
+    background-image: url(./images/backpack-guy.jpg);
     background-position: top right;
     -webkit-background-size: cover;
     -moz-background-size: cover;
