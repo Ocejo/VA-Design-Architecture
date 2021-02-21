@@ -71,7 +71,7 @@ a {
 
 .banner {
     background-attachment: fixed;
-    background-image: url(images/backgroundd.jpg);
+    background-image: url(images/backgroundd.png);
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -301,7 +301,7 @@ a {
 .call-to-action {
     background-attachment: fixed;
     background-color: #645862;
-    background-image: url(images/background.jpg);
+    background-image: url(images/backgroundd.png);
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -789,6 +789,7 @@ p {
     transition: all 1s ease;
     /* filter: grayscale(1) blur(3px); */
     /* -webkit-filter: grayscale(1) blur(3px); */
+    /* background-color: RGBA(52, 73, 94, 0.19); */
     transform: scale(1.1);
     cursor: pointer;
 }
@@ -838,6 +839,10 @@ p {
 .tm-img-container-3 {
     background-image: url(../Ethereal/images/backpack-guy.jpg);
     background-position: top right;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .tm-img {
@@ -1376,4 +1381,11 @@ figure.effect-lexi p {
     text-align: center;
     cursor: pointer;
     text-decoration: none;
+}
+
+.imgcarr img {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }

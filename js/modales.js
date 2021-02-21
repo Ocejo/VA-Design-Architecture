@@ -23,15 +23,19 @@ $(document).ready(function() {
         interval: 3000
     })
     $("#proyect1").on('click', function(event) {
+        createImg(1);
         $('#modalproyectos').modal('show');
     });
     $("#proyect2").on('click', function(event) {
+        createImg(2);
         $('#modalproyectos').modal('show');
     });
     $("#proyect3").on('click', function(event) {
+        createImg(3);
         $('#modalproyectos').modal('show');
     });
     $("#proyect4").on('click', function(event) {
+        createImg(4);
         $('#modalproyectos').modal('show');
     });
     // Eventos Cerrar modales
@@ -42,3 +46,10 @@ $(document).ready(function() {
         $('#exampleModal').modal('hide');
     });
 });
+
+function createImg(id) {
+    for (let index = 1; index < 6; index++) {
+        document.getElementById('imgproyect' + index).src = `images/Proyecto${id}/img${index}.jpg`;
+    }
+    return;
+}
