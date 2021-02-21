@@ -814,7 +814,7 @@ p {
     margin-left: -40px;
     -webkit-clip-path: polygon(14% 0%, 100% 0%, 86% 100%, 0% 100%);
     clip-path: polygon(14% 0%, 100% 0%, 86% 100%, 0% 100%);
-    background-image: url(../Ethereal/images/casaminima.jpg);
+    background-image: url(./images/casaminima.jpg);
     border: none;
     background-position: top center;
 }
