@@ -217,7 +217,7 @@
                                 </figcaption>
                             </figure>
                             <figure class="effect-lexi tm-gallery-item" id="proyect3">
-                                <img src="images/proyecto3/portada.jpg" alt="Image" class="img_proyects">
+                                <img src="images/Proyecto3/portada.jpg" alt="Image" class="img_proyects">
                                 <figcaption>
                                     <p>CASA LS</p>
                                 </figcaption>
