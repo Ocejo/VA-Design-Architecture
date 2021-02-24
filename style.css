@@ -72,8 +72,9 @@ a {
 .banner {
     background-attachment: fixed;
     background-image: url(images/backgroundd.jpg);
-    background-position: top center;
-    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     color: white;
     cursor: default;
@@ -301,7 +302,7 @@ a {
 .call-to-action {
     background-attachment: fixed;
     background-color: #645862;
-    background-image: url(images/backgroundd.png);
+    background-image: url(images/backgroundd.jpg);
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -564,29 +565,6 @@ ul.social-buttons li a:active {
 
 
 /*-----Contact Starts-------*/
-
-@media (min-width:0px) and (max-width: 600px) {
-    .bg-overlay {
-        padding: 180px 0 120px;
-    }
-    .banner-text h2 {
-        font-size: 35px;
-    }
-    nav>li>a:focus,
-    .nav>li>a:hover,
-    .nav>li>a:focus,
-    .nav>li.active>a {
-        border-bottom: none;
-        ;
-    }
-    .features,
-    .about,
-    .portfolio,
-    .contact,
-    .testimonials {
-        padding: 50px 0px;
-    }
-}
 
 .tm-mb-25 {
     margin-bottom: 25px;
@@ -952,12 +930,6 @@ p {
     border-radius: 0;
 }
 
-
-/*.form-control:focus {
-  border-bottom: 2px solid #ad0c10;
-  box-shadow: none;
-}*/
-
 .btn-primary {
     background-color: #CC9999;
     border-color: #CC9999;
@@ -1097,6 +1069,178 @@ figure.effect-lexi p {
     transition: opacity 0.35s, transform 0.35s;
 }
 
+.snip1566 {
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+    max-width: 400px;
+    width: 100%;
+    color: #bbb;
+    font-size: 16px;
+    box-shadow: none !important;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
+
+.snip1566 *,
+.snip1566:before,
+.snip1566:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+.snip1566:before,
+.snip1566:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 50%;
+    content: '';
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: -1;
+    border: 2px solid #bbb;
+    border-color: transparent #bbb;
+}
+
+.snip1566 img {
+    max-width: 100%;
+    backface-visibility: hidden;
+    vertical-align: top;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.snip1566 figcaption {
+    position: absolute;
+    top: 5px;
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 50%;
+}
+
+.snip1566 i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 4em;
+    z-index: 1;
+}
+
+.snip1566 a {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,600&subset=latin-ext');
+.popup__photo {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 40%;
+    height: 100%;
+    overflow: hidden;
+    margin-left: -14px;
+}
+
+.popup__photo img {
+    width: auto;
+    height: 100%;
+}
+
+.popup__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    height: 100%;
+    padding: 4rem;
+}
+
+.popup__text h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    color: #0a0a0a;
+}
+
+.popup__text p {
+    font-size: 13px;
+    color: #686868;
+    line-height: 1.5;
+}
+
+.popup__close {
+    position: absolute;
+    right: -1rem;
+    top: -1rem;
+    width: 3rem;
+    height: 3rem;
+    font-size: 0.875rem;
+    font-weight: 300;
+    border-radius: 100%;
+    background-color: #0a0a0a;
+    z-index: 4;
+    color: #fff;
+    line-height: 3rem;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.imgcarr img {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+@media (min-width:0px) and (max-width: 600px) {
+    .banner {
+        background-image: url(images/movil.jpg);
+    }
+    .bg-overlay {
+        padding: 180px 0 120px;
+    }
+    .banner-text h2 {
+        font-size: 35px;
+    }
+    nav>li>a:focus,
+    .nav>li>a:hover,
+    .nav>li>a:focus,
+    .nav>li.active>a {
+        border-bottom: none;
+        ;
+    }
+    .features,
+    .about,
+    .portfolio,
+    .contact,
+    .testimonials {
+        padding: 50px 0px;
+    }
+    .snip1566 {
+        margin: 0px;
+    }
+    .tm-section-2-inner {
+        padding: 30px;
+    }
+}
+
 @media (min-width: 1430px) {
     .tm-contact-left {
         width: 80%;
@@ -1190,6 +1334,7 @@ figure.effect-lexi p {
     }
     .tm-section-3-inner {
         flex-direction: column-reverse;
+        padding: 30px;
     }
     .tm-section-3-left {
         width: 100%;
@@ -1215,177 +1360,4 @@ figure.effect-lexi p {
         right: -110px;
         bottom: -80px;
     }
-}
-
-.snip1566 {
-    position: relative;
-    display: inline-block;
-    margin: 20px;
-    max-width: 400px;
-    width: 100%;
-    color: #bbb;
-    font-size: 16px;
-    box-shadow: none !important;
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
-}
-
-.snip1566 *,
-.snip1566:before,
-.snip1566:after {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    -webkit-transition: all 0.3s linear;
-    transition: all 0.3s linear;
-}
-
-.snip1566:before,
-.snip1566:after {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    border-radius: 50%;
-    content: '';
-    position: absolute;
-    top: 0px;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-    z-index: -1;
-    border: 2px solid #bbb;
-    border-color: transparent #bbb;
-}
-
-.snip1566 img {
-    max-width: 100%;
-    backface-visibility: hidden;
-    vertical-align: top;
-    border-radius: 50%;
-    padding: 10px;
-}
-
-.snip1566 figcaption {
-    position: absolute;
-    top: 5px;
-    bottom: 5px;
-    left: 5px;
-    right: 5px;
-    opacity: 0;
-    background-color: rgba(0, 0, 0, 0.9);
-    border-radius: 50%;
-}
-
-.snip1566 i {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    font-size: 4em;
-    z-index: 1;
-}
-
-.snip1566 a {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 1;
-}
-
-
-/* .snip1566:hover figcaption,
-.snip1566.hover figcaption {
-    opacity: 1;
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
-} */
-
-
-/* .snip1566:hover:before,
-.snip1566.hover:before,
-.snip1566:hover:after,
-.snip1566.hover:after {
-    border-width: 10px;
-    border-radius: 0px;
-    margin: 22px;
-}
-
-.snip1566:hover:before,
-.snip1566.hover:before {
-    -webkit-transform: rotate(45deg);
-    transform: rotate(45deg);
-}
-
-.snip1566:hover:after,
-.snip1566.hover:after {
-    -webkit-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-} */
-
-
-/* MODAL */
-
-@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,600&subset=latin-ext');
-.popup__photo {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    width: 40%;
-    height: 100%;
-    overflow: hidden;
-    margin-left: -14px;
-}
-
-.popup__photo img {
-    width: auto;
-    height: 100%;
-}
-
-.popup__text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 60%;
-    height: 100%;
-    padding: 4rem;
-}
-
-.popup__text h1 {
-    font-size: 2rem;
-    font-weight: 600;
-    margin-bottom: 2rem;
-    text-transform: uppercase;
-    color: #0a0a0a;
-}
-
-.popup__text p {
-    font-size: 13px;
-    color: #686868;
-    line-height: 1.5;
-}
-
-.popup__close {
-    position: absolute;
-    right: -1rem;
-    top: -1rem;
-    width: 3rem;
-    height: 3rem;
-    font-size: 0.875rem;
-    font-weight: 300;
-    border-radius: 100%;
-    background-color: #0a0a0a;
-    z-index: 4;
-    color: #fff;
-    line-height: 3rem;
-    text-align: center;
-    cursor: pointer;
-    text-decoration: none;
-}
-
-.imgcarr img {
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
 }

@@ -71,7 +71,7 @@
                         </div>
                         <div class="feature-text media-body">
                             <h4>Elemento creativo</h4>
-                            <p class="feature-detail">Cada proyecto es visualizado de manera particular, independiente y proyectado de manera personalizada.</p>
+                            <p class="feature-detail">Cada proyecto es visualizado de manera particular, independiente y diseñado de manera personalizada.</p>
                         </div>
                     </div>
                 </div>
