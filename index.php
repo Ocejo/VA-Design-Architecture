@@ -137,13 +137,13 @@
                             <div class="col-md-6 col-sm-6 col-xs-6 block" style="padding-top: 26px;">
                                 <div class="counter-item text-center">
                                     <h5>Nuestros Clientes</h5>
-                                    <div class="timer" data-from="0" data-to="55" data-speed="5000" data-refresh-interval="50"></div>
+                                    <div class="timer" data-from="0" data-to="48" data-speed="5000" data-refresh-interval="50"></div>
                                 </div>
                             </div>
                             <div class="col-md-6 col-sm-6 col-xs-6" style="padding-top: 26px;">
                                 <div class="counter-item text-center">
                                     <h5>Proyectos Completados</h5>
-                                    <div class="timer" data-from="0" data-to="88" data-speed="5000" data-refresh-interval="50"></div>
+                                    <div class="timer" data-from="0" data-to="54" data-speed="5000" data-refresh-interval="50"></div>
                                 </div>
                             </div>
                         </div>
