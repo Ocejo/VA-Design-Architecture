@@ -23,19 +23,19 @@ $(document).ready(function() {
         interval: 3000
     })
     $("#proyect1").on('click', function(event) {
-        createImg(1);
+        createElement(1, 1);
         $('#modalproyectos').modal('show');
     });
     $("#proyect2").on('click', function(event) {
-        createImg(2);
+
         $('#modalproyectos').modal('show');
     });
     $("#proyect3").on('click', function(event) {
-        createImg(3);
+        createElement(3, 3);
         $('#modalproyectos').modal('show');
     });
     $("#proyect4").on('click', function(event) {
-        createImg(4);
+
         $('#modalproyectos').modal('show');
     });
     // Eventos Cerrar modales
@@ -47,9 +47,48 @@ $(document).ready(function() {
     });
 });
 
-function createImg(id) {
-    for (let index = 1; index < 6; index++) {
-        document.getElementById('imgproyect' + index).src = `images/Proyecto${id}/img${index}.jpg`;
+async function createElement(num, id) {
+    await deleteElement(num);
+    await addClassitem(num);
+    let ol = document.getElementById('carousel-indicators');
+    let divimg = document.getElementById('carousel-inner');
+    for (let index = 0; index < num; index++) {
+        if (index === 0) {
+            ol.innerHTML += `<li data-target="#myCarousel" data-slide-to="${index}" class="active" id="li${index}"></li>`;
+            document.getElementById(`imgproyect${index}`).src = `images/Proyecto${id}/img${index+1}.jpg`;
+            $(`#divimgproyect${index}`).addClass("active");
+            // divimg.innerHTML += `<div class="item active imgcarr" id="imgproyect${index}"><img src="images/Proyecto${id}/img${index+1}.jpg"></div>`
+        } else {
+            ol.innerHTML += `<li data-target="#myCarousel" data-slide-to="${index}" id="li${index}"></li>`;
+            document.getElementById(`imgproyect${index}`).src = `images/Proyecto${id}/img${index+1}.jpg`;
+            // divimg.innerHTML += `<div class="item active imgcarr" id="imgproyect${index}"><img src="images/Proyecto${id}/img${index+1}.jpg"></div>`
+        }
     }
-    return;
+}
+
+function deleteElement(num) {
+    let test = 5 - num;
+    test = 5 - test;
+    const padre = $("#carousel-indicators").children().length;
+    const padred = $("#carousel-inner").children().length;
+    if (padre > 0) {
+        for (let index = 0; index < parseInt(padre); index++) {
+            document.getElementById(`li${index}`).remove();
+            if (num != 5 && index >= test) {
+                console.log('eliminar');
+                //document.getElementById(`divimgproyect${index}`).style.display = 'none';
+                $(`#divimgproyect${index}`).removeClass("item");
+            }
+        }
+    }
+    return true;
+}
+
+function addClassitem(num) {
+    for (let index = 0; index < num; index++) {
+        if (!document.querySelector(`#divimgproyect${index}.item`)) {
+            $(`#divimgproyect${index}`).addClass("item");
+        }
+    }
+    return true;
 }

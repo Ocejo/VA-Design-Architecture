@@ -31,7 +31,7 @@
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"> <span
                             class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
                     </button>
-                    <img src="images/logo1.png" alt="logo" style="padding: 2px 15px;">
+                    <img src="images/logo1.png" alt="logo" style="padding: 1px 15px;">
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav navbar-right">
@@ -349,28 +349,28 @@
             <div class="modal-content ">
                 <a class="popup__close" id="closemodalp"> <i class="fa fa-close"></i></a>
                 <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#myCarousel" data-slide-to="1"></li>
-                        <li data-target="#myCarousel" data-slide-to="2"></li>
-                        <li data-target="#myCarousel" data-slide-to="3"></li>
-                        <li data-target="#myCarousel" data-slide-to="4"></li>
+                    <ol class="carousel-indicators" id="carousel-indicators">
+                        <li data-target="#myCarousel" id="li0" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" id="li1" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" id="li2" data-slide-to="2"></li>
+                        <li data-target="#myCarousel" id="li3" data-slide-to="3"></li>
+                        <li data-target="#myCarousel" id="li4" data-slide-to="4"></li>
                     </ol>
-                    <div class="carousel-inner" style="max-height: 500px;">
-                        <div class="item active imgcarr">
+                    <div class="carousel-inner" id="carousel-inner" style="max-height: 500px;">
+                        <div class="item active imgcarr" id="divimgproyect0">
+                            <img id="imgproyect0" src="">
+                        </div>
+                        <div class="item imgcarr" id="divimgproyect1">
                             <img id="imgproyect1" src="">
                         </div>
-                        <div class="item imgcarr">
+                        <div class="item imgcarr" id="divimgproyect2">
                             <img id="imgproyect2" src="">
                         </div>
-                        <div class="item imgcarr">
+                        <div class="item imgcarr" id="divimgproyect3">
                             <img id="imgproyect3" src="">
                         </div>
-                        <div class="item imgcarr">
-                            <img id="imgproyect4" src="">
-                        </div>
-                        <div class="item imgcarr">
-                            <img id="imgproyect5" src="">
+                        <div class="item imgcarr" id="divimgproyect4">
+                            <img  id="imgproyect4" src="">
                         </div>
                     </div>
 
