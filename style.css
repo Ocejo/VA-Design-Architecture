@@ -1209,6 +1209,10 @@ figure.effect-lexi p {
     background-size: cover;
 }
 
+.carousel-inner {
+    max-height: 500px;
+}
+
 @media (min-width:0px) and (max-width: 600px) {
     .banner {
         background-image: url(images/movil.jpg);
@@ -1241,6 +1245,9 @@ figure.effect-lexi p {
     }
     .popup__photo {
         margin-left: 0px;
+    }
+    .carousel-inner {
+        max-height: 270px;
     }
 }
 

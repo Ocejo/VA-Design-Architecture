@@ -356,7 +356,7 @@
                         <li data-target="#myCarousel" id="li3" data-slide-to="3"></li>
                         <li data-target="#myCarousel" id="li4" data-slide-to="4"></li>
                     </ol>
-                    <div class="carousel-inner" id="carousel-inner" style="max-height: 500px;">
+                    <div class="carousel-inner" id="carousel-inner">
                         <div class="item active imgcarr" id="divimgproyect0">
                             <img id="imgproyect0" src="">
                         </div>
