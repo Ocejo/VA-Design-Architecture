@@ -1239,6 +1239,9 @@ figure.effect-lexi p {
     .tm-section-2-inner {
         padding: 30px;
     }
+    .popup__photo {
+        margin-left: 0px;
+    }
 }
 
 @media (min-width: 1430px) {

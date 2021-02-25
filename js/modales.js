@@ -23,7 +23,7 @@ $(document).ready(function() {
         interval: 3000
     })
     $("#proyect1").on('click', function(event) {
-        createElement(1, 1);
+        createElement(5, 1);
         $('#modalproyectos').modal('show');
     });
     $("#proyect2").on('click', function(event) {
@@ -31,7 +31,7 @@ $(document).ready(function() {
         $('#modalproyectos').modal('show');
     });
     $("#proyect3").on('click', function(event) {
-        createElement(3, 3);
+        createElement(5, 3);
         $('#modalproyectos').modal('show');
     });
     $("#proyect4").on('click', function(event) {
