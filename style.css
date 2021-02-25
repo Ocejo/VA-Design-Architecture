@@ -1213,6 +1213,10 @@ figure.effect-lexi p {
     max-height: 500px;
 }
 
+.address img {
+    margin-left: 40px;
+}
+
 @media (min-width:0px) and (max-width: 600px) {
     .banner {
         background-image: url(images/movil.jpg);
@@ -1248,6 +1252,12 @@ figure.effect-lexi p {
     }
     .carousel-inner {
         max-height: 270px;
+    }
+    .modal.in .modal-dialog {
+        margin-top: 55%;
+    }
+    .address img {
+        margin-left: 50px;
     }
 }
 

@@ -311,10 +311,10 @@
                 </div>
                 <div class="col-md-offset-1 col-md-4 col-sm-offset-1 col-sm-5 col-xs-offset-1 col-xs-10">
                     <div class="address">
-                        <img src="images/logoblack.png" alt="logoblack" width="200" style="margin-left: 40px;">
+                        <img src="images/logoblack.png" alt="logoblack" width="200">
                         <div class="email">
                             <i class="fa fa-at" style="color: black;"></i>hello@w3template.com<br>
-                            <i class="fa fa-mobile" style="color: black;"></i> 123 456 789
+                            &nbsp;<i class="fa fa-mobile" style="color: black;"></i> 123 456 789
                         </div>
                         </p>
                     </div>
@@ -394,8 +394,8 @@
                 <div class="col-md-4"></div>
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons">
-                        <li><a href="#"><i class="fa fa-instagram"></i></a> </li>
-                        <li><a href="#"><i class="fa fa-facebook"></i></a> </li>
+                        <li><a href="https://www.instagram.com/va.arquitectura_/" target="_blank"><i class="fa fa-instagram"></i></a> </li>
+                        <li><a href="https://www.facebook.com/VaArquitectura" target="_blank"><i class="fa fa-facebook"></i></a> </li>
                     </ul>
                 </div>
                 <div class="col-md-4"></div>
