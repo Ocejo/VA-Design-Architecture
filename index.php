@@ -36,10 +36,10 @@
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav navbar-right">
                         <li class="active"><a href="#banner">Inicio</a></li>
-                        <li><a href="#work">Nosotros</a></li>
-                        <li><a href="#testimonials">Servicios</a></li>
-                        <li><a href="#about">Proyectos</a></li>
-                        <li><a href="#contact">Contacto</a></li>
+                        <li><a href="#Nosotros">Nosotros</a></li>
+                        <li><a href="#Servicios">Servicios</a></li>
+                        <li><a href="#Proyectos">Proyectos</a></li>
+                        <li><a href="#Contacto">Contacto</a></li>
                     </ul>
                 </div>
             </div>
@@ -62,7 +62,7 @@
         </div>
     </div>
     <!-- Iconos -->
-    <div class="features" id="work">
+    <div class="features" id="Nosotros">
         <div class="container">
             <div class="row">
                 <div class="col-md-4 col-sm-6 col-xs-12">
@@ -105,7 +105,7 @@
                             </svg></div>
                         <div class="feature-text media-body">
                             <h4>Imagen y equipamiento</h4>
-                            <p class="feature-detail">Abarcamos los diferentes giros en equipamiento urbano, realizando proyectos de vivienda, oficinas, comercios, escuelas etc.</p>
+                            <p class="feature-detail">Abarcamos diferentes giros en equipamiento urbano, realizando proyectos de vivienda, oficinas, comercios, escuelas etc.</p>
                         </div>
                     </div>
                 </div>
@@ -153,7 +153,7 @@
         </div>
     </div>
     <!-- Servicios -->
-    <div class="testimonials" id="testimonials">
+    <div class="testimonials" id="Servicios">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -195,7 +195,7 @@
         </div>
     </div>
     <!-- Proyectos -->
-    <div class="about" id="about">
+    <div class="about" id="Proyectos">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
@@ -223,9 +223,15 @@
                                 </figcaption>
                             </figure>
                             <figure class="effect-lexi tm-gallery-item" id="proyect4">
-                                <img src="images/img-04.jpg" alt="Image" class="img_proyects">
+                                <img src="images/Proyecto5/portada.jpg" alt="Image" class="img_proyects">
                                 <figcaption>
-                                    <p>Maecenas quis risus sem. Fusce ac dolor in ipsum pretium.</p>
+                                    <p>TERRAZA FLORES</p>
+                                </figcaption>
+                            </figure>
+                            <figure class="effect-lexi tm-gallery-item" id="proyect4">
+                                <img src="images/Proyecto4/portada.jpg" alt="Image" class="img_proyects">
+                                <figcaption>
+                                    <p>QUANTUM CONSULTORIOS</p>
                                 </figcaption>
                             </figure>
                         </div>
@@ -272,9 +278,7 @@
                 <div class="row">
                     <div class="col-md-8 col-sm-10">
                         <div class="subscribe-text">
-                            <h3>Subscribe For Updates</h3>
-                            <p>Join our 1000+ subscribers and get access to the latest tools, freebies, product announcements and much more!
-                            </p>
+                            <h3></h3>
                         </div>
                     </div>
                     <div class="col-md-4 text-center"></div>
@@ -283,7 +287,7 @@
         </div>
     </div>
     <!-- Contacto -->
-    <div class="contact" id="contact">
+    <div class="contact" id="Contacto">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">

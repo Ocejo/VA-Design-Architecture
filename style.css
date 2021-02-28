@@ -11,17 +11,26 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 
+@font-face {
+    font-family: myFirstFont;
+    src: url(./fonts/Century_Gothic.ttf);
+}
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-    font-family: 'Work Sans', sans-serif;
+    font-family: myFirstFont;
 }
 
 a {
     outline: none !important;
+}
+
+.feature-detail {
+    font-size: 12px;
 }
 
 
@@ -243,7 +252,7 @@ a {
 /*-----Testimonials Starts-------*/
 
 .testimonials {
-    padding: 50px 0px;
+    padding: 100px 0px;
     width: 100%;
     float: left;
 }
@@ -347,14 +356,8 @@ a {
     color: #ffffff;
 }
 
-
-/*-----Call to action Starts-------*/
-
-
-/*-----About Starts-------*/
-
 .about {
-    padding: 50px 0px;
+    padding: 0px 0px;
     width: 100%;
     float: left;
 }
@@ -725,10 +728,6 @@ p {
     margin-bottom: 40px;
 }
 
-.tm-section-pb {
-    padding-bottom: 120px;
-}
-
 .tm-section-pt {
     padding-top: 135px;
 }
@@ -792,7 +791,7 @@ p {
     margin-left: -40px;
     -webkit-clip-path: polygon(14% 0%, 100% 0%, 86% 100%, 0% 100%);
     clip-path: polygon(14% 0%, 100% 0%, 86% 100%, 0% 100%);
-    background-image: url(./images/casaminima.jpg);
+    background-image: url(./images/grua25.jpg);
     border: none;
     background-position: top center;
 }
@@ -804,12 +803,12 @@ p {
 }
 
 .tm-img-container-1 {
-    background-image: url(./images/green-tree-red-cup.jpg);
+    background-image: url(./images/manos4.jpg);
     background-position: top center;
 }
 
 .tm-img-container-2 {
-    background-image: url(./images/girl-01.jpg);
+    background-image: url(./images/escritorio.jpg);
     background-position: top center;
     margin-left: 8px;
 }
@@ -840,6 +839,10 @@ p {
     -webkit-clip-path: polygon(0 0, 86% 0, 100% 100%, 14% 100%);
     clip-path: polygon(0 0, 86% 0, 100% 100%, 14% 100%);
     min-height: 560px;
+}
+
+.tm-section-3-left p {
+    font-size: 12px;
 }
 
 .tm-section-3-right {
@@ -1067,6 +1070,7 @@ figure.effect-lexi figcaption::before,
 figure.effect-lexi p {
     -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
     transition: opacity 0.35s, transform 0.35s;
+    font-size: 16px;
 }
 
 .snip1566 {
@@ -1239,7 +1243,7 @@ figure.effect-lexi p {
     .portfolio,
     .contact,
     .testimonials {
-        padding: 50px 0px;
+        padding: 0px 0px 100px;
     }
     .snip1566 {
         margin: 0px;
@@ -1258,6 +1262,13 @@ figure.effect-lexi p {
     }
     .address img {
         margin-left: 50px;
+    }
+    .features,
+    .about,
+    .portfolio,
+    .contact,
+    .testimonials {
+        padding: 10px 0px 100px;
     }
 }
 
@@ -1354,7 +1365,9 @@ figure.effect-lexi p {
     }
     .tm-section-3-inner {
         flex-direction: column-reverse;
-        padding: 30px;
+        margin-top: -25px;
+        padding-left: 30px;
+        padding-right: 30px;
     }
     .tm-section-3-left {
         width: 100%;
