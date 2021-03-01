@@ -252,9 +252,10 @@ a {
 /*-----Testimonials Starts-------*/
 
 .testimonials {
-    padding: 100px 0px;
+    padding-bottom: 50px;
     width: 100%;
     float: left;
+    padding-top: 50px;
 }
 
 .testimonials h3 {
@@ -357,7 +358,7 @@ a {
 }
 
 .about {
-    padding: 0px 0px;
+    padding: 50px 0px;
     width: 100%;
     float: left;
 }
@@ -1035,6 +1036,7 @@ figure.effect-lexi:hover p {
     opacity: 1;
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
+    margin-bottom: 20%;
 }
 
 figure.effect-lexi:hover img {
@@ -1268,7 +1270,10 @@ figure.effect-lexi p {
     .portfolio,
     .contact,
     .testimonials {
-        padding: 10px 0px 100px;
+        padding: 50px 0px 100px;
+    }
+    .testimonials {
+        margin-top: 10px;
     }
 }
 

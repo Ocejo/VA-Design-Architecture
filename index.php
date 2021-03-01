@@ -35,7 +35,7 @@
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav navbar-center">
-                        <li class="active"><a href="#banner">Inicio</a></li>
+                        <li class="active"><a href="#Home">Inicio</a></li>
                         <li><a href="#Nosotros">Nosotros</a></li>
                         <li><a href="#Servicios">Servicios</a></li>
                         <li><a href="#Proyectos">Proyectos</a></li>
@@ -46,7 +46,7 @@
         </nav>
     </div>
     <!-- Portada -->
-    <div class="banner" id="banner">
+    <div class="banner" id="Home">
         <div class="bg-overlay">
             <div class="container">
                 <div class="row">
