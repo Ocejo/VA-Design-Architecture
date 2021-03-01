@@ -477,7 +477,7 @@
 
             var active = 0;
             // start all the timers
-            $('#work').waypoint(function() {
+            $('#Nosotros').waypoint(function() {
                 if (active === 0) {
                     active = 1;
                     $('.timer').each(count);
