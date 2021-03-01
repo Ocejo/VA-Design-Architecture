@@ -31,10 +31,10 @@
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"> <span
                             class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
                     </button>
-                    <img src="images/logo1.png" alt="logo" style="padding: 1px 15px;">
+                    <!-- <img src="images/logo1.png" alt="logo" style="padding: 3px;width:80px"> -->
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
-                    <ul class="nav navbar-nav navbar-right">
+                    <ul class="nav navbar-nav navbar-center">
                         <li class="active"><a href="#banner">Inicio</a></li>
                         <li><a href="#Nosotros">Nosotros</a></li>
                         <li><a href="#Servicios">Servicios</a></li>
@@ -52,6 +52,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="banner-text">
+                        <img src="images/logo1.png" alt="logo" style="padding: 3px;width:220px">
                             <h2>“Cada proyecto es un sueño, y cada sueño materializado una oportunidad de crecer...”
                             </h2>
                             <p>En VA Diseño + Arquitectura, estamos comprometidos a <strong class="written-text" id="requiredForMultiple"></strong> tu proyecto. Cuidando tu patrimonio.</p>

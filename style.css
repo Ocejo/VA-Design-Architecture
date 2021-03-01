@@ -93,8 +93,8 @@ a {
 }
 
 .bg-overlay {
-    padding: 280px 0 220px;
-    background-color: RGBA(52, 73, 94, 0.19);
+    padding: 200px 0 220px;
+    background-color: RGBA(52, 73, 94, 0.25);
 }
 
 .banner-text h2 {
@@ -791,7 +791,7 @@ p {
     margin-left: -40px;
     -webkit-clip-path: polygon(14% 0%, 100% 0%, 86% 100%, 0% 100%);
     clip-path: polygon(14% 0%, 100% 0%, 86% 100%, 0% 100%);
-    background-image: url(./images/grua25.jpg);
+    background-image: url(./images/grua26.png);
     border: none;
     background-position: top center;
 }
