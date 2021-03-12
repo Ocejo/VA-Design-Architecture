@@ -298,15 +298,15 @@
                 </div>
                 <div class="col-md-7 col-sm-offset-0 col-sm-6 col-xs-offset-1 col-xs-10" style="border-radius: 20px; background-color: rgba(214, 219, 223,0.26);">
                     <div class="contact-form">
-                        <form role="form">
+                        <form role="form" id="form-contact">
                             <div class="col-md-6">
-                                <input type="text" class="form-control" id="name" placeholder="Nombre">
+                                <input type="text" class="form-control" id="name" placeholder="Nombre" required>
                             </div>
                             <div class="col-md-6">
-                                <input type="email" class="form-control" id="email" placeholder="Correo">
+                                <input type="email" class="form-control" id="email" placeholder="Correo" required>
                             </div>
                             <div class="col-md-12">
-                                <textarea class="form-control" placeholder="Mensaje" rows="6"></textarea>
+                                <textarea class="form-control" id ="message" placeholder="Mensaje" rows="6"></textarea>
                             </div>
                             <div class="col-md-12 text-center">
                                 <button type="submit" class="contact-button">Enviar Correo</button>
@@ -414,6 +414,7 @@
     <script type="text/javascript" src="js/jquery.countTo.js"></script>
     <script type="text/javascript" src="js/jquery.waypoints.min.js"></script>
     <script src="slick/slick.min.js"></script>
+    <script src="js/sendemail.js"></script>
     <script>
         $(document).ready(function() {
             $(function() {
