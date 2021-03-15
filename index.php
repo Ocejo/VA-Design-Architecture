@@ -5,9 +5,9 @@
     <meta charset="utf-8">
     <title>VA Diseño + Arquitectura</title>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" /> -->
     <link rel="stylesheet" type="text/css" href="css/simple-line-icons.css" />
-    <link rel="stylesheet" type="text/css" href="css/animate.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="css/animate.css" /> -->
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link rel="stylesheet" type="text/css" href="css/owl.carousel.css" />
     <link rel="stylesheet" type="text/css" href="css/owl.theme.css" />
