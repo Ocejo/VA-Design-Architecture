@@ -80,7 +80,7 @@ a {
 
 .banner {
     background-attachment: fixed;
-    background-image: url(images/backgroundd.jp2);
+    background-image: url(images/backgroundd.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -312,7 +312,7 @@ a {
 .call-to-action {
     background-attachment: fixed;
     background-color: #645862;
-    background-image: url(images/backgroundd.jp2);
+    background-image: url(images/backgroundd.jpg);
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
