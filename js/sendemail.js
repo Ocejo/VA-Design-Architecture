@@ -13,6 +13,19 @@ form.addEventListener('submit', async function(event) {
             body: formData
         });
         let data = await send.json()
+        if (data.success === true) {
+            Swal.fire(
+                '¡Mensaje enviado!',
+                'Gracias por contactarnos',
+                'success'
+            )
+        } else {
+            Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: 'intentalo mas tarde'
+            })
+        }
         console.log(data);
     } catch (error) {
         alert(error);

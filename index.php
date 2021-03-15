@@ -20,6 +20,7 @@
     <link href='https://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps:400,700' rel='stylesheet' type='text/css'>
     <link rel="icon" type="image/x-icon" href="images/logoppp.png" />
     <link rel="apple-touch-icon" href="images/logoppp.png" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.15.5/dist/sweetalert2.all.min.js"></script>
 </head>
 
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
@@ -392,6 +393,7 @@
             </div>
         </div>
     </div>
+
     <!-- Footer -->
     <footer>
         <div class="container">
@@ -458,7 +460,7 @@
                 singleItem: true
 
                 // "singleItem:true" is a shortcut for:
-                // items : 1, 
+                // items : 1,
                 // itemsDesktop : false,
                 // itemsDesktopSmall : false,
                 // itemsTablet: false,

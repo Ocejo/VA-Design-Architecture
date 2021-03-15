@@ -27,7 +27,7 @@ $(document).ready(function() {
         $('#modalproyectos').modal('show');
     });
     $("#proyect2").on('click', function(event) {
-
+        createElement(1, 2);
         $('#modalproyectos').modal('show');
     });
     $("#proyect3").on('click', function(event) {
