@@ -5,9 +5,9 @@
     <meta charset="utf-8">
     <title>VA Diseño + Arquitectura</title>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" /> -->
     <link rel="stylesheet" type="text/css" href="css/simple-line-icons.css" />
-    <link rel="stylesheet" type="text/css" href="css/animate.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="css/animate.css" /> -->
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link rel="stylesheet" type="text/css" href="css/owl.carousel.css" />
     <link rel="stylesheet" type="text/css" href="css/owl.theme.css" />
@@ -20,6 +20,7 @@
     <link href='https://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps:400,700' rel='stylesheet' type='text/css'>
     <link rel="icon" type="image/x-icon" href="images/logoppp.png" />
     <link rel="apple-touch-icon" href="images/logoppp.png" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.15.5/dist/sweetalert2.all.min.js"></script>
 </head>
 
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
@@ -31,27 +32,28 @@
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"> <span
                             class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
                     </button>
-                    <img src="images/logo1.png" alt="logo" style="padding: 2px 15px;">
+                    <!-- <img src="images/logo1.png" alt="logo" style="padding: 3px;width:80px"> -->
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="active"><a href="#banner">Inicio</a></li>
-                        <li><a href="#work">Nosotros</a></li>
-                        <li><a href="#testimonials">Servicios</a></li>
-                        <li><a href="#about">Proyectos</a></li>
-                        <li><a href="#contact">Contacto</a></li>
+                    <ul class="nav navbar-nav navbar-center">
+                        <li class="active"><a href="#Home">Inicio</a></li>
+                        <li><a href="#Nosotros">Nosotros</a></li>
+                        <li><a href="#Servicios">Servicios</a></li>
+                        <li><a href="#Proyectos">Proyectos</a></li>
+                        <li><a href="#Contacto">Contacto</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
     </div>
     <!-- Portada -->
-    <div class="banner" id="banner">
+    <div class="banner" id="Home">
         <div class="bg-overlay">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
                         <div class="banner-text">
+                        <img src="images/logo1.png" alt="logo" style="padding: 3px;width:220px">
                             <h2>“Cada proyecto es un sueño, y cada sueño materializado una oportunidad de crecer...”
                             </h2>
                             <p>En VA Diseño + Arquitectura, estamos comprometidos a <strong class="written-text" id="requiredForMultiple"></strong> tu proyecto. Cuidando tu patrimonio.</p>
@@ -62,7 +64,7 @@
         </div>
     </div>
     <!-- Iconos -->
-    <div class="features" id="work">
+    <div class="features" id="Nosotros">
         <div class="container">
             <div class="row">
                 <div class="col-md-4 col-sm-6 col-xs-12">
@@ -71,7 +73,7 @@
                         </div>
                         <div class="feature-text media-body">
                             <h4>Elemento creativo</h4>
-                            <p class="feature-detail">Cada proyecto es visualizado de manera particular, independiente y proyectado de manera personalizada.</p>
+                            <p class="feature-detail">Cada proyecto es visualizado de manera particular, independiente y diseñado de manera personalizada.</p>
                         </div>
                     </div>
                 </div>
@@ -105,7 +107,7 @@
                             </svg></div>
                         <div class="feature-text media-body">
                             <h4>Imagen y equipamiento</h4>
-                            <p class="feature-detail">Abarcamos los diferentes giros en equipamiento urbano, realizando proyectos de vivienda, oficinas, comercios, escuelas etc.</p>
+                            <p class="feature-detail">Abarcamos diferentes giros en equipamiento urbano, realizando proyectos de vivienda, oficinas, comercios, escuelas etc.</p>
                         </div>
                     </div>
                 </div>
@@ -137,13 +139,13 @@
                             <div class="col-md-6 col-sm-6 col-xs-6 block" style="padding-top: 26px;">
                                 <div class="counter-item text-center">
                                     <h5>Nuestros Clientes</h5>
-                                    <div class="timer" data-from="0" data-to="55" data-speed="5000" data-refresh-interval="50"></div>
+                                    <div class="timer" data-from="0" data-to="48" data-speed="5000" data-refresh-interval="50"></div>
                                 </div>
                             </div>
                             <div class="col-md-6 col-sm-6 col-xs-6" style="padding-top: 26px;">
                                 <div class="counter-item text-center">
                                     <h5>Proyectos Completados</h5>
-                                    <div class="timer" data-from="0" data-to="88" data-speed="5000" data-refresh-interval="50"></div>
+                                    <div class="timer" data-from="0" data-to="54" data-speed="5000" data-refresh-interval="50"></div>
                                 </div>
                             </div>
                         </div>
@@ -153,7 +155,7 @@
         </div>
     </div>
     <!-- Servicios -->
-    <div class="testimonials" id="testimonials">
+    <div class="testimonials" id="Servicios">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -195,7 +197,7 @@
         </div>
     </div>
     <!-- Proyectos -->
-    <div class="about" id="about">
+    <div class="about" id="Proyectos">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
@@ -223,9 +225,15 @@
                                 </figcaption>
                             </figure>
                             <figure class="effect-lexi tm-gallery-item" id="proyect4">
-                                <img src="images/img-04.jpg" alt="Image" class="img_proyects">
+                                <img src="images/Proyecto5/portada.jpg" alt="Image" class="img_proyects">
                                 <figcaption>
-                                    <p>Maecenas quis risus sem. Fusce ac dolor in ipsum pretium.</p>
+                                    <p>TERRAZA FLORES</p>
+                                </figcaption>
+                            </figure>
+                            <figure class="effect-lexi tm-gallery-item" id="proyect4">
+                                <img src="images/Proyecto4/portada.jpg" alt="Image" class="img_proyects">
+                                <figcaption>
+                                    <p>QUANTUM CONSULTORIOS</p>
                                 </figcaption>
                             </figure>
                         </div>
@@ -272,9 +280,7 @@
                 <div class="row">
                     <div class="col-md-8 col-sm-10">
                         <div class="subscribe-text">
-                            <h3>Subscribe For Updates</h3>
-                            <p>Join our 1000+ subscribers and get access to the latest tools, freebies, product announcements and much more!
-                            </p>
+                            <h3></h3>
                         </div>
                     </div>
                     <div class="col-md-4 text-center"></div>
@@ -283,7 +289,7 @@
         </div>
     </div>
     <!-- Contacto -->
-    <div class="contact" id="contact">
+    <div class="contact" id="Contacto">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -293,15 +299,15 @@
                 </div>
                 <div class="col-md-7 col-sm-offset-0 col-sm-6 col-xs-offset-1 col-xs-10" style="border-radius: 20px; background-color: rgba(214, 219, 223,0.26);">
                     <div class="contact-form">
-                        <form role="form">
+                        <form role="form" id="form-contact">
                             <div class="col-md-6">
-                                <input type="text" class="form-control" id="name" placeholder="Nombre">
+                                <input type="text" class="form-control" id="name" placeholder="Nombre" required>
                             </div>
                             <div class="col-md-6">
-                                <input type="email" class="form-control" id="email" placeholder="Correo">
+                                <input type="email" class="form-control" id="email" placeholder="Correo" required>
                             </div>
                             <div class="col-md-12">
-                                <textarea class="form-control" placeholder="Mensaje" rows="6"></textarea>
+                                <textarea class="form-control" id ="message" placeholder="Mensaje" rows="6"></textarea>
                             </div>
                             <div class="col-md-12 text-center">
                                 <button type="submit" class="contact-button">Enviar Correo</button>
@@ -311,10 +317,10 @@
                 </div>
                 <div class="col-md-offset-1 col-md-4 col-sm-offset-1 col-sm-5 col-xs-offset-1 col-xs-10">
                     <div class="address">
-                        <img src="images/logoblack.png" alt="logoblack" width="200" style="margin-left: 40px;">
+                        <img src="images/logoblack.png" alt="logoblack" width="200">
                         <div class="email">
                             <i class="fa fa-at" style="color: black;"></i>hello@w3template.com<br>
-                            <i class="fa fa-mobile" style="color: black;"></i> 123 456 789
+                            &nbsp;<i class="fa fa-mobile" style="color: black;"></i> 123 456 789
                         </div>
                         </p>
                     </div>
@@ -349,28 +355,28 @@
             <div class="modal-content ">
                 <a class="popup__close" id="closemodalp"> <i class="fa fa-close"></i></a>
                 <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#myCarousel" data-slide-to="1"></li>
-                        <li data-target="#myCarousel" data-slide-to="2"></li>
-                        <li data-target="#myCarousel" data-slide-to="3"></li>
-                        <li data-target="#myCarousel" data-slide-to="4"></li>
+                    <ol class="carousel-indicators" id="carousel-indicators">
+                        <li data-target="#myCarousel" id="li0" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" id="li1" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" id="li2" data-slide-to="2"></li>
+                        <li data-target="#myCarousel" id="li3" data-slide-to="3"></li>
+                        <li data-target="#myCarousel" id="li4" data-slide-to="4"></li>
                     </ol>
-                    <div class="carousel-inner" style="max-height: 500px;">
-                        <div class="item active imgcarr">
+                    <div class="carousel-inner" id="carousel-inner">
+                        <div class="item active imgcarr" id="divimgproyect0">
+                            <img id="imgproyect0" src="">
+                        </div>
+                        <div class="item imgcarr" id="divimgproyect1">
                             <img id="imgproyect1" src="">
                         </div>
-                        <div class="item imgcarr">
+                        <div class="item imgcarr" id="divimgproyect2">
                             <img id="imgproyect2" src="">
                         </div>
-                        <div class="item imgcarr">
+                        <div class="item imgcarr" id="divimgproyect3">
                             <img id="imgproyect3" src="">
                         </div>
-                        <div class="item imgcarr">
-                            <img id="imgproyect4" src="">
-                        </div>
-                        <div class="item imgcarr">
-                            <img id="imgproyect5" src="">
+                        <div class="item imgcarr" id="divimgproyect4">
+                            <img  id="imgproyect4" src="">
                         </div>
                     </div>
 
@@ -387,6 +393,7 @@
             </div>
         </div>
     </div>
+
     <!-- Footer -->
     <footer>
         <div class="container">
@@ -394,8 +401,8 @@
                 <div class="col-md-4"></div>
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons">
-                        <li><a href="#"><i class="fa fa-instagram"></i></a> </li>
-                        <li><a href="#"><i class="fa fa-facebook"></i></a> </li>
+                        <li><a href="https://www.instagram.com/va.arquitectura_/" target="_blank"><i class="fa fa-instagram"></i></a> </li>
+                        <li><a href="https://www.facebook.com/VaArquitectura" target="_blank"><i class="fa fa-facebook"></i></a> </li>
                     </ul>
                 </div>
                 <div class="col-md-4"></div>
@@ -409,6 +416,7 @@
     <script type="text/javascript" src="js/jquery.countTo.js"></script>
     <script type="text/javascript" src="js/jquery.waypoints.min.js"></script>
     <script src="slick/slick.min.js"></script>
+    <script src="js/sendemail.js"></script>
     <script>
         $(document).ready(function() {
             $(function() {
@@ -452,7 +460,7 @@
                 singleItem: true
 
                 // "singleItem:true" is a shortcut for:
-                // items : 1, 
+                // items : 1,
                 // itemsDesktop : false,
                 // itemsDesktopSmall : false,
                 // itemsTablet: false,
@@ -473,7 +481,7 @@
 
             var active = 0;
             // start all the timers
-            $('#work').waypoint(function() {
+            $('#Nosotros').waypoint(function() {
                 if (active === 0) {
                     active = 1;
                     $('.timer').each(count);
